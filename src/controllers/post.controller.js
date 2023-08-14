@@ -71,7 +71,7 @@ const deletePost = async (req, res) => {
       },
     });
 
-    res.status(200).json({ data: {} });
+    res.status(200).json({ data: post });
   } catch (e) {
     console.log(e);
   }
